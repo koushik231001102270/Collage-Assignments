@@ -1,0 +1,1 @@
+import{a as e,i as t,n,r,t as i}from"./Container-CAe2shK2.js";var a=e(t(),1),o=r(),s=n();function c(){return(0,s.jsx)(i,{children:(0,s.jsx)(`h2`,{children:`Student Information Management`})})}(0,o.createRoot)(document.getElementById(`root`)).render((0,s.jsx)(a.StrictMode,{children:(0,s.jsx)(c,{})}));
