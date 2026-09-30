@@ -1,0 +1,44 @@
+{
+    "1": {
+        "title": "Personal Portfolio",
+        "subtitle": "Develop a simple personal portfolio webpage using React.",
+        "role": "assignment — 1",
+        "href":"https://koushikc.in"
+    },
+    "2": {
+        "title": "Student Information Management",
+        "subtitle": "A student information portal for every student.",
+        "role": "assignment — 2",
+        "href":"src/ass_02/index.html"
+    },
+    "3": {
+        "title": "Employee Directory",
+        "subtitle": "Maintained Employee data for a farm.",
+        "role": "assignment — 3",
+        "href":"src/ass_03/index.html"
+    },
+    "4": {
+        "title": "Weather Dashboard",
+        "subtitle": "Develop a simple personal portfolio webpage using React.",
+        "role": "assignment — 4",
+        "href":"src/ass_04/index.html"
+    },
+    "5": {
+        "title": "Online Shopping Cart",
+        "subtitle": "Develop a online shopping cart.",
+        "role": "assignment — 5",
+        "href":"src/ass_05/index.html"
+    },
+    "6": {
+        "title": "Task Manager",
+        "subtitle": "A single-page task manager application.",
+        "role": "assignment — 6",
+        "href":"src/ass_06/index.html"
+    },
+    "7": {
+        "title": "Authentication System",
+        "subtitle": "An Implementation of an Authentication System",
+        "role": "assignment — 7",
+        "href":"src/ass_07/index.html"
+    }
+}

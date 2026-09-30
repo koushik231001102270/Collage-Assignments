@@ -1,0 +1,96 @@
+body::-webkit-scrollbar {
+    width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border: var(--sb-border) solid var(--background);
+    border-radius: 20px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    body {
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
+
+@supports not selector(::-webkit-scrollbar) {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: GoogleSans;
+    background-color: var(--background);
+    color: var(--subdued);
+    --sb-size: 10px;
+    --sb-track-color: transparent;
+    --sb-border: 2px;
+    --sb-thumb-color: var(--subdued);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    text-decoration: none;
+}
+
+.text-underline {
+    color: var(--default);
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 1.2px;
+    transition: text-decoration-color .2s ease-out;
+}
+
+.text-underline:hover {
+    text-decoration-color: var(--subdued);
+}
+
+h2 {
+    font-weight: 400;
+    letter-spacing: .01em;
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--default);
+}
+
+section p {
+    font-weight: 400;
+    letter-spacing: .02em;
+    line-height: 24px;
+    font-size: 16px;
+    color: var(--subdued);
+}
+
+@font-face {
+    font-family: "GoogleSans";
+    src: url('font/google_sans_flex_400.ttf') format('truetype');
+}
+
+:root {
+    --default: #e6ffe8;
+    --subdued: #8ac28d;
+    --background: #0a1f0c;
+    --secondary: #162E1A;
+    --border: #58835E;
+}
